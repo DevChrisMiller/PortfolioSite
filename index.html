@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Miller Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4f95eaa754.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/devchrismiller.png" alt="logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#services" class="nav_link">My Services</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="#work" class="nav_link">My Work</a></li> 
+            </ul>    
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">Hi, I am <strong>Chris Miller</strong></h1>
+        <p class="section_subtitle section_subtitle-intro">front-end dev</p>
+        <img src="img/devchrismiller-01.jpg" alt="my beautiful face" class="intro-img">
+    </section>
+
+    <!-- My services -->
+
+    <section class="myservices" id="services">
+        <h2 class="section_title section_title-services">What I do</h2>
+            <div class="services">
+                
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>I primarily use a mix of HTML, CSS, Javascript, and React to develop front end solutions that are clean, intuitive, and fully responsive. </p>
+                </div> <!-- /service -->
+
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>I am well versed in the Adobe Creative Suite as well as proficient in using other design technologies such as SASS and Bootstrap. </p>
+                </div> <!-- /service -->
+
+                <div class="service">
+                    <h3>Wordpress</h3>
+                    <p>I'm proficient in setting up and managing content on Wordpress sites to create user friendly pages for businesses and organizations.</p>
+                </div> <!-- /service -->
+
+                
+            </div> <!-- /services -->
+
+            <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="aboutme" id="about">
+        <h2 class="section_title section_title-about">Who I am</h2>
+        <p class="section_subtitle section_subtitle-about">Ohio based developer & designer</p>
+
+        <div class="aboutme-body">
+            <p>I currently live and work in Canton, Ohio. As a recent graduate with a degree in web development & design, I am always looking to put my skills to work and add new skills to my development toolbox.</p>
+            <p>Outside of the world of coding I love to bang around on my drumset, play a round of golf, fire up some games on Steam with my friends, or catch a Browns game.</p>
+            <p>I'm always experimenting, always learning, and rarely bored.</p>
+        </div>
+
+        <img src="img/devchrismiller-02.jpg" alt="me standing by a lake" class="aboutme-img">   
+    </section>
+
+    <!-- My Work -->
+
+    <section class="mywork" id="work">
+        <h2 class="section_title section_title-work">My Work</h2>
+        <p class="section_subtitle section_subtitle-work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio item 01-->
+            <a href="smartbrain.html" class="portfolio-item">
+                <img src="img/portfolio-01.png" alt="smartbrain logo" class="portfolio-img">
+            </a>
+
+             <!-- Portfolio item 02-->
+             <a href="snakegame.html" class="portfolio-item">
+                <img src="img/portfolio-02.png" alt="snake game logo" class="portfolio-img">
+            </a>
+
+             <!-- Portfolio item 03-->
+             <a href="bootstraplandingpage.html" class="portfolio-item">
+                <img src="img/portfolio-03.png" alt="bootstrap logo" class="portfolio-img">
+            </a>
+
+             <!-- Portfolio item 04-->
+             <a href="ecommerce.html" class="portfolio-item">
+                <img src="img/portfolio-04.png" alt="ecommerce logo" class="portfolio-img">
+            </a>
+        </div>
+
+        <a href="resume/ChrisMiller_Resume.pdf" target="_blank" class="btn">My Resume</a>
+        <!-- download="Chris Miller Resume"  -->
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <a href="mailto:devchrismiller@gmail.com" class="footer-link">devchrismiller@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/DevChrisMiller" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://linkedin.com/in/chris-miller-1332451b5/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://twitter.com/devchrismiller" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

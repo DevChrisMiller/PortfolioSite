@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4f95eaa754.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/devchrismiller.png" alt="logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#services" class="nav_link">My Services</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#work" class="nav_link">My Work</a></li> 
+            </ul>    
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">Ecommerce<strong>Website</strong></h1>
+        <p class="section_subtitle section_subtitle-intro">online shopping</p>
+        <img src="img/portfolio-04.png" alt="ECommerce Logo" class="intro-img">
+    </section>
+
+    <!-- Project -->
+    
+    <div class="portfolio-item-individual">
+        <a href="https://devchrismiller.github.io/HeadphoneHookup/" target="_blank">
+            <img src="img/portfolio-detail-04.png" alt="headphonehookup website">
+        </a>
+
+        <p>This is a fully responsive ecommerce app that uses <a href="https://reactjs.org/" target="_blank">React</a> for the front-end, <a href="https://commercejs.com/" target="_blank">CommerceJS</a> for the back end, and integrates <a href="https://stripe.com/" target="_blank">Stripe</a> to process the payments.<br>
+
+            <p>The site gives you ability to add items to cart, go to cart, adjust quantities of items in the cart, remove an item from your cart, empty cart completely, and checkout. The checkout process will adjust subdivisions and shipping options based on the country of sale. Upon completion of sale, the buyer and seller with both be sent an email containing all of the necessary details.<br><br>
+
+                If you would like to test the checkout process, simply alternate between 4 and 2 when filling out the card information:<br><br>
+                
+                Card Number: 4242 4242 4242 4242 Date: 4/24 CVV: 242 Zip: 42424</p>
+
+        <a href="https://devchrismiller.github.io/HeadphoneHookup" class="btn portfolio-btn">View Site</a>
+        <a href="https://github.com/DevChrisMiller/HeadphoneHookup" class="btn portfolio-btn">View Code</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:devchrismiller@gmail.com" class="footer-link">devchrismiller@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/DevChrisMiller">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://linkedin.com/in/chris-miller-1332451b5/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://twitter.com/devchrismiller">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

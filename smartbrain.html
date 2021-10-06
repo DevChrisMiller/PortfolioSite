@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBrain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4f95eaa754.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/devchrismiller.png" alt="logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#services" class="nav_link">My Services</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#work" class="nav_link">My Work</a></li> 
+            </ul>    
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">SmartBrain<strong>Project</strong></h1>
+        <p class="section_subtitle section_subtitle-intro">face detection app</p>
+        <img src="img/portfolio-01.png" alt="SmartBrain Logo" class="intro-img">
+    </section>
+
+    <!-- Project -->
+    
+    <div class="portfolio-item-individual">
+        <a href="https://devchrismiller.github.io/SmartBrain/" target="_blank">
+            <img src="img/portfolio-detail-01.png" alt="smartbrain website">
+        </a>
+        <p>This is a <a href="https://reactjs.org/" target="_blank">React App</a> that is used to detect faces in images. Simply copy and paste an image URL, click detect, and it will locate the face in your image.<br><br>
+
+            Here is an example image URL for you to copy and paste to try it out:<br>
+            
+            https://express-images.franklymedia.com/6616/sites/265/2018/06/25064539/worm.jpeg<br><br>
+            
+            This project uses the <a href="https://www.clarifai.com/models/ai-face-detection" target="_blank">Clarifai face detection API</a> to detect the face and then some DOM manipulation to implement the returned coordinates into the box on the face in the image. I've used <a href="https://tachyons.io/" target="_blank">Tachyons</a> to help with some of the styling, while using <a href="https://www.npmjs.com/package/react-particles-js" target="_blank">react-particles</a> for the background and <a href="https://www.npmjs.com/package/react-tilt" target="_blank">react-tilt</a> on the logo to add some spice to the site. I plan to to expand on this project by adding more image analyzation options for the user such as color identifiers or object identification.</p>
+ 
+
+        <a href="https://devchrismiller.github.io/SmartBrain" class="btn portfolio-btn" target="_blank">Visit Site</a>
+        <a href="https://github.com/DevChrisMiller/SmartBrain" class="btn portfolio-btn" target="_blank">View Code</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:devchrismiller@gmail.com" class="footer-link">devchrismiller@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/DevChrisMiller">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://linkedin.com/in/chris-miller-1332451b5/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://twitter.com/devchrismiller">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

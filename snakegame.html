@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4f95eaa754.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/devchrismiller.png" alt="logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#services" class="nav_link">My Services</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#work" class="nav_link">My Work</a></li> 
+            </ul>    
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">The<strong>Snake Game</strong></h1>
+        <p class="section_subtitle section_subtitle-intro">The classic game</p>
+        <img src="img/portfolio-02.png" alt="Bootstrap Logo" class="intro-img">
+    </section>
+
+    <!-- Project -->
+    
+    <div class="portfolio-item-individual">
+        <a href="https://devchrismiller.github.io/SnakeGame/" target="_blank">
+            <img src="img/portfolio-detail-02.png" alt="snake game">
+        </a>
+        <p>This is a responsive version of the classic snake game created using only HTML, CSS, and Javascript. The game was challenging but fun to make at the same time. It shows off the use of a game loop to update the page. The rate of expansion and snake speed can be adjusted by simply changing either the snakeSpeed or expansionRate constants in the game.js file. The score is implemented on the page using DOM manipulation. I used <a href="https://alertifyjs.com/" target="_blank">AlertifyJS</a> for the postgame confirmation box, and added sound effects when food is eaten and when the game ends. My high score is 280... can you beat it?</p>
+
+        <a href="https://devchrismiller.github.io/SnakeGame" class="btn portfolio-btn" target="_blank">Visit Site</a>
+        <a href="https://github.com/DevChrisMiller/SnakeGame" class="btn portfolio-btn" target="_blank">View Code</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:devchrismiller@gmail.com" class="footer-link">devchrismiller@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/DevChrisMiller">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://linkedin.com/in/chris-miller-1332451b5/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://twitter.com/devchrismiller">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
